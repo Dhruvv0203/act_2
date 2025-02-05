@@ -43,3 +43,32 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore all cached files
+*.cache
+
+# Ignore all unnecessary files from the act_2 folder
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.
+# Ignore all files in the current directory
+android
+ios 
+linux   
+macosx  
+test       
+web 
+windows
+.metadata  
+analysis_options.yaml
+pubspec.lock
+pubspec
+pubspec.yaml
+.dart_tool
+.idea  
+macos
+act_2.iml
