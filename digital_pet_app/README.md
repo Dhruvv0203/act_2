@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# act_2
-=======
 # digital_pet_app
->>>>>>> 5d0c326 (Initial commit)
 
 A new Flutter project.
 

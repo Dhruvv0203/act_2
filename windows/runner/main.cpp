@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"act_2", origin, size)) {
+=======
+  if (!window.Create(L"digital_pet_app", origin, size)) {
+>>>>>>> 5d0c326 (Initial commit)
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="act_2"
+=======
+        android:label="digital_pet_app"
+>>>>>>> 5d0c326 (Initial commit)
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:act_2/main.dart';
+=======
+import 'package:digital_pet_app/main.dart';
+>>>>>>> 5d0c326 (Initial commit)
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
