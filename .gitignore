@@ -1,4 +1,4 @@
-# Miscellaneous
+## Miscellaneous
 *.class
 *.log
 *.pyc
@@ -152,3 +152,6 @@ macos
 act_2.iml
 =======
 >>>>>>> 5d0c326 (Initial commit)
+build/
+pubspec.lock
+.dart_tool/
