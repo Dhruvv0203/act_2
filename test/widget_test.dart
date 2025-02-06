@@ -1,34 +1,30 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-<<<<<<< HEAD
-import 'package:act_2/main.dart';
-=======
 import 'package:digital_pet_app/main.dart';
->>>>>>> 5d0c326 (Initial commit)
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  testWidgets('PetApp tab switching test', (WidgetTester tester) async {
+    // Build the app and trigger a frame.
+    await tester.pumpWidget(PetApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    // Verify that the first tab (Dog) is displayed initially.
+    expect(find.text('Dogs are loyal and friendly!'), findsOneWidget);
+    expect(find.text('Cats love to sleep and explore!'), findsNothing);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
+    // Tap on the 'Cat' tab and trigger a frame.
+    await tester.tap(find.text('Cat'));
     await tester.pump();
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Verify that the Cat tab content is now visible.
+    expect(find.text('Cats love to sleep and explore!'), findsOneWidget);
+    expect(find.text('Dogs are loyal and friendly!'), findsNothing);
+
+    // Tap on the 'Bird' tab and trigger a frame.
+    await tester.tap(find.text('Bird'));
+    await tester.pump();
+
+    // Verify that the Bird tab content is now visible.
+    expect(find.text('Birds are colorful and can sing beautifully!'), findsOneWidget);
+    expect(find.text('Cats love to sleep and explore!'), findsNothing);
   });
 }
