@@ -43,6 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+<<<<<<< HEAD
 
 # Ignore all cached files
 *.cache
@@ -72,3 +73,5 @@ pubspec.yaml
 .idea  
 macos
 act_2.iml
+=======
+>>>>>>> 5d0c326 (Initial commit)

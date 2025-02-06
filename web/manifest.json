@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "act_2",
     "short_name": "act_2",
+=======
+    "name": "digital_pet_app",
+    "short_name": "digital_pet_app",
+>>>>>>> 5d0c326 (Initial commit)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

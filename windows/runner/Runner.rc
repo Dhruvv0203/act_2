@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "act_2" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "act_2" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "act_2.exe" "\0"
             VALUE "ProductName", "act_2" "\0"
+=======
+            VALUE "FileDescription", "digital_pet_app" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "digital_pet_app" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "digital_pet_app.exe" "\0"
+            VALUE "ProductName", "digital_pet_app" "\0"
+>>>>>>> 5d0c326 (Initial commit)
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
